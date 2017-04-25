@@ -1,5 +1,5 @@
 ### Introdução
-Nesse projeto vou só exemplificar alguns modelos de `docker-compose.yml` utilizando o ambiente de desenvolvimento da galera do `codecast/ambientum`.
+Nesse projeto vou só exemplificar alguns modelos de `docker-compose.yml` utilizando o ambiente de desenvolvimento da galera do [https://github.com/codecasts/ambientum](https://github.com/codecasts/ambientum).
 
 #### Primeiro modelo
 * Nesse primeiro exemplo, vou criar um modelo com 3 serviços `(Mysql, Redis e PHP)`
