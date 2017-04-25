@@ -53,7 +53,7 @@ Em construção
 
 * Depois de escolher seu modelo e criar seu `docker-compose`, crie um diretório  `public` na raiz do seu projeto junto com um arquivo `index.php`, e adicione o seguinte conteudo:
 ```php
-phpinfo()
+<?php phpinfo()
 ```
 
 * Agora execute o seguinte comando `docker-compose up --build` para construtir sua stack.
