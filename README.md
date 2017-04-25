@@ -47,8 +47,8 @@ services:
 ```
 
 #### Segundo Modelo
-```yml
-// Em construção
+```
+Em construção
 ```
 
 * Depois de escolher seu modelo e criar seu `docker-compose`, crie um diretório  `public` na raiz do seu projeto junto com um arquivo `index.php`, e adicione o seguinte conteudo:
