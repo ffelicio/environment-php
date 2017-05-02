@@ -23,9 +23,9 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD=SEU_USUARIO_ROOT
+      - MYSQL_ROOT_PASSWORD=SUA_SENHA_ROOT
       - MYSQL_DATABASE=SEU_BANCO_DE_DADOS
-      - MYSQL_USER=SEU_USUARIO
+      - MYSQL_USER=SEU_USUARIO //NÃO PODE SER ROOT
       - MYSQL_PASSWORD=SUA_SENHA
   cache:
     image: ambientum/redis:3.2
@@ -36,14 +36,14 @@ services:
     ports:
       - "6379:6379"
   app:
-    image: ambientum/php-alpine:7.0-nginx
+    image: ambientum/php:7.1-nginx
     container_name: app
     volumes:
       - .:/var/www/app
     ports:
       - "80:8080"
     links:
-      - mysql
+      - bd
 ```
 
 #### Segundo Modelo
